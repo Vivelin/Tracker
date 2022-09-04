@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivelin.Tracker.Web", "src\Vivelin.Tracker.Web\Vivelin.Tracker.Web.csproj", "{88D2C8C5-A46A-4264-803F-285B9F2BA0E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivelin.Tracker.Data", "src\Vivelin.Tracker.Data\Vivelin.Tracker.Data.csproj", "{5A635BB5-4C2A-45A1-98EF-A955D3F2A902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivelin.Tracker", "src\Vivelin.Tracker\Vivelin.Tracker.csproj", "{D3EC6AE5-1C67-4EE2-9764-4129529F29BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{88D2C8C5-A46A-4264-803F-285B9F2BA0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D2C8C5-A46A-4264-803F-285B9F2BA0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D2C8C5-A46A-4264-803F-285B9F2BA0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A635BB5-4C2A-45A1-98EF-A955D3F2A902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A635BB5-4C2A-45A1-98EF-A955D3F2A902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A635BB5-4C2A-45A1-98EF-A955D3F2A902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A635BB5-4C2A-45A1-98EF-A955D3F2A902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EC6AE5-1C67-4EE2-9764-4129529F29BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EC6AE5-1C67-4EE2-9764-4129529F29BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EC6AE5-1C67-4EE2-9764-4129529F29BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EC6AE5-1C67-4EE2-9764-4129529F29BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
