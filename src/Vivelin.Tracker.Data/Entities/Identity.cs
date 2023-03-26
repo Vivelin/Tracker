@@ -15,7 +15,7 @@ public class Identity
     /// <summary>
     /// Gets or sets a unique ID for the identity.
     /// </summary>
-    public int Id { get; set; }
+    public int Id { get; init; }
 
     /// <summary>
     /// Gets or sets the ID of the human associated with the identity.
