@@ -5,9 +5,9 @@ namespace Vivelin.Tracker.Data.Entities
     /// <summary>
     /// Represents a human's identity on a platform.
     /// </summary>
-    internal class PlatformIdentity
+    public class Identity
     {
-        public PlatformIdentity(Guid humanId, Platform platform, string externalId)
+        public Identity(Guid humanId, Platform platform, string externalId)
         {
             HumanId = humanId;
             Platform = platform;
