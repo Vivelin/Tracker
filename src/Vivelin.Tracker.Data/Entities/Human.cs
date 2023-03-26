@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Vivelin.Tracker.Data.Entities;
 
-namespace Vivelin.Tracker.Data.Entities
+public class Human
 {
-    public class Human
-    {
-        public Guid Id { get; set; }
+    public Guid Id { get; set; }
 
-        public virtual ICollection<Identity> Identities { get; set; }
-            = new List<Identity>();
+    public virtual ICollection<Identity> Identities { get; set; }
+        = new List<Identity>();
 
-        public int Opinion { get; set; }
-    }
+    public int Opinion { get; set; }
 }

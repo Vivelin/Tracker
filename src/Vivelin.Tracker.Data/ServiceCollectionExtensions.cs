@@ -8,14 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 using Vivelin.Tracker.Data;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Microsoft.Extensions.DependencyInjection;
+
+public static class ServiceCollectionExtensions
 {
-    public static class ServiceCollectionExtensions
+    public static IServiceCollection AddTrackerDataServices(this IServiceCollection services,
+        string sqliteConnectionString)
     {
-        public static IServiceCollection AddTrackerDataServices(this IServiceCollection services,
-            string sqliteConnectionString)
-        {
-            return services.AddSqlite<TrackerContext>(sqliteConnectionString);
-        }
+        return services.AddSqlite<TrackerContext>(sqliteConnectionString);
     }
 }
